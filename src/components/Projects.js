@@ -18,16 +18,16 @@ export const Projects = () => {
           <p className='project-description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.</p>
         </motion.div>
         <motion.div className='right-content'>
-          <div className='picture-container'>
-            <img alt='Picture of project' src={projectpic}/>
-          </div>
+            <div className="image-container">
+            <img className="project-image" alt='Picture of project' src={projectpic}/>
+            </div>
         </motion.div>
       </motion.div>
       <motion.div className='project-container'>
             <motion.div className='left-content'>
-            <div className='picture-container'>
-            <img alt='Picture of project' src={projectpic}/>
-          </div>
+                <div className="image-container">
+                    <img className="project-image" alt='Picture of project' src={projectpic}/>
+                </div>
         </motion.div>
         <motion.div className='right-content'>
         <div className='project-top'>
